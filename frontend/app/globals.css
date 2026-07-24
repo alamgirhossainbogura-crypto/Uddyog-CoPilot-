@@ -1,0 +1,16 @@
+:root {
+  /* Primary Theme: Royal Blue */
+  --primary: 221.2 83.2% 53.3%;        /* #2563eb */
+  --primary-foreground: 210 40% 98%;
+
+  /* Accent Theme: Light Green / Mint */
+  --accent: 142.1 70.6% 45.3%;         /* #22c55e / #34d399 */
+  --accent-light: 138 76% 97%;        /* #f0fdf4 Light Green Tint */
+  --accent-foreground: 144.9 80.4% 10%;
+
+  /* App Background & Cards */
+  --background: 144 60% 98%;          /* সফট গ্রিন/হোয়াইট টিন্ট */
+  --card: 0 0% 100%;                  /* সাদা কার্ড */
+  --card-foreground: 222.2 84% 4.9%;
+  --border: 214.3 31.8% 91.4%;
+}
