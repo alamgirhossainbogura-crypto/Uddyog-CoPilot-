@@ -1,0 +1,20 @@
+{
+  "name": "uddyog-copilot-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Uddyog CoPilot",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Build script placeholder'",
+    "start": "echo 'Start script placeholder'",
+    "dev": "echo 'Dev script placeholder'"
+  },
+  "keywords": [
+    "uddyog",
+    "copilot",
+    "frontend"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
