@@ -1,4 +1,4 @@
-# Uddyog-CoPilot (উদ্যোগ কো-পাইলট) 🚀
+# Uddyog-CoPilot  🚀
 
 ![GitHub release](https://img.shields.io/github/v/release/alamgirhossainbogura-crypto/Uddyog-CoPilot?color=blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -12,23 +12,23 @@
 
 ## 🌟 Key Features (The Four Pillars)
 
-### 📘 1. War Room & Business Guide (ওয়ার রুম ও বিজনেস গাইড)
+### 📘 1. War Room & Business Guide 
 * **Multi-Agent AI Debate:** Evaluates business ideas through 3 distinct AI agent perspectives:
   * 🕵️ **Skeptic:** Uncovers hidden risks, flawed logic, and unvalidated assumptions.
   * 🎯 **Strategist:** Analyzes market positioning, growth models, and strategic advantages.
   * ⚙️ **Operator:** Assesses operational costs, daily feasibility, and execution logistics.
 * **Assumption Map:** Visualizes business risks categorizing claims into `VALIDATED`, `UNVALIDATED`, and `NEEDS_INFO`.
 
-### 📝 2. Task Manager & To-Do List (টাস্ক ম্যানেজার)
+### 📝 2. Task Manager & To-Do List
 * Tracks daily execution tasks for starting and running the business.
 * Visual progress updates, interactive checkmarks, and real-time state persistence.
 
-### 📊 3. Launchpad & Strategy Room (লঞ্চপ্যাড ও স্ট্র্যাটেজি রুম)
+### 📊 3. Launchpad & Strategy Room 
 * **Customer Connect:** Drafts targeted outreach emails and messages for potential customer validation.
 * **Validation Roadmap:** Offers week-by-week testing strategies with low-cost experiments.
 * **Document Advisor (RAG):** Upload pitch decks or PDFs to query an AI advisor trained on your project documents.
 
-### 🎙️ 4. Pitch Session (পিচ সেশন)
+### 🎙️ 4. Pitch Session 
 * Gemini Live Multimodal integration for real-time, interactive pitch feedback via audio and camera feed.
 
 ---
