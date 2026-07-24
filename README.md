@@ -54,25 +54,7 @@
 | **Payments** | x402 Micropayment Protocol |
 | **Process Manager** | PM2 (`ecosystem.config.cjs`) |
 
----
-
-## 📂 Project Structure
-
-Uddyog-CoPilot/
-├── .github/
-│   ├── ISSUE_TEMPLATE/     # Issue report templates
-│   └── workflows/          # GitHub Actions CI/CD pipelines
-├── docs/                   # AI Architecture & Database Schemas
-├── frontend/               # Next.js 15 App Router Frontend Service
-│   ├── app/                # Pages (Home, Guide, Todo, Pitch)
-│   ├── components/         # Reusable UI & AdSlot components
-│   └── lib/                # LLM API callers & utilities
-├── backend/                # Express 5 & Prisma API Backend
-│   ├── src/v1/             # API routes & middleware
-│   └── prisma/             # Database schemas & pgvector migration
-├── .env.example            # Environment variable specifications
-├── ecosystem.config.cjs    # PM2 deployment config
-└── start-all.sh            # Production startup script
+---             
 
 ## 🚀 Quick Start (Local Setup)
 ​1. **Clone the Repository*:*
