@@ -1,0 +1,31 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  name      String?
+  createdAt DateTime @default(now())
+}
+
+model TodoItem {
+  id        String   @id @default(uuid())
+  title     String
+  completed Boolean  @default(false)
+  userId    String
+  createdAt DateTime @default(now())
+}
+
+model WarRoomSession {
+  id        String   @id @default(uuid())
+  title     String
+  idea      String
+  status    String   @default("IN_PROGRESS")
+  createdAt DateTime @default(now())
+}
