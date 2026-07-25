@@ -19,5 +19,18 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Build Project
-        run: npm run build
+      - name: Auto-Detect & Build
+        run: |
+          if [ -f "./frontend/package.json" ]; then
+            echo "Found frontend directory!"
+            cd frontend
+            npm install --legacy-peer-deps
+            npm run build --if-present
+          elif [ -f "./package.json" ]; then
+            echo "Found root package.json!"
+            npm install --legacy-peer-deps
+            npm run build --if-present
+          else
+            echo "Error: No package.json found in root or frontend directory"
+            exit 1
+          fi
