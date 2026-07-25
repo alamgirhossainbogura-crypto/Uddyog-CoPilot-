@@ -1,6 +1,5 @@
 # Uddyog-CoPilot  🚀
 
-![GitHub release](https://img.shields.io/github/v/release/alamgirhossainbogura-crypto/Uddyog-CoPilot?color=blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![CI Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Next.js](https://img.shields.io/badge/Next.js-15-black)
