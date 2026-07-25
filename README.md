@@ -39,7 +39,10 @@
 * **Bangla-First UX:** Fully localized native Bangla system prompts and smooth UI navigation.
 
 ---
+## ⚡ x402 Micropayments Integration:
+Uddyog-CoPilot features an x402-powered payment middleware. When users invoke high-end AI multi-agent analysis (War Room), the system triggers an automated payment challenge (`402 Payment Required`), verifying micro-transactions before settling the API response.
 
+---
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
