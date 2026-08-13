@@ -5,7 +5,7 @@
 ![Next.js](https://img.shields.io/badge/Next.js-15-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
 
-**Uddyog-CoPilot** is an AI-powered digital business assistant and productivity co-pilot tailored for Bangla-speaking entrepreneurs and early-stage startups. Built for the **Brainwave 2026 Hackathon**, it transforms vague startup ideas into structured, stress-tested execution plans through multi-agent AI debates, risk mapping, and actionable productivity tools.
+**Uddyog-CoPilot** is an AI-powered digital business assistant and productivity co-pilot tailored for Bangla-speaking entrepreneurs and early-stage startups. It transforms vague startup ideas into structured, stress-tested execution plans through multi-agent AI debates, risk mapping, and actionable productivity tools.
 
 ---
 
