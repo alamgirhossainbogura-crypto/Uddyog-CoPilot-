@@ -43,6 +43,7 @@
 Uddyog-CoPilot features an x402-powered payment middleware. When users invoke high-end AI multi-agent analysis (War Room), the system triggers an automated payment challenge (`402 Payment Required`), verifying micro-transactions before settling the API response.
 
 ---
+
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
@@ -53,8 +54,10 @@ Uddyog-CoPilot features an x402-powered payment middleware. When users invoke hi
 | **AI Models** | Gemini Flash (Google AI Studio) & Gemini Live Multimodal |
 | **Backend** | Express 5, TypeScript |
 | **Database** | PostgreSQL via Prisma 6 + `pgvector` |
+| **Cloud Infrastructure** | Google Cloud Storage (GCS) - integrated for user pitch deck uploads and RAG vector document storage |
 | **Payments** | x402 Micropayment Protocol |
 | **Process Manager** | PM2 (`ecosystem.config.cjs`) |
+
 
 ---             
 
