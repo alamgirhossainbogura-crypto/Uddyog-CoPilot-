@@ -13,7 +13,7 @@ export function x402PaymentMiddleware(req: Request, res: Response, next: NextFun
         address: "0xYourWalletOrContractAddressHere",
         amount: "0.001",
         currency: "USDC/ETH",
-        challengeId: "ch_" + Math.random().toString(36.substring(2, 9))
+        challengeId: "ch_" + Math.random().toString(36).substring(2, 9)
       }
     });
   }
